@@ -21,9 +21,13 @@ Proyek ini merupakan bagian dari tugas UAS mata kuliah *Kecerdasan Buatan* yang 
    
 Laporan ini membahas penerapan metode Random Forest untuk menyelesaikan studi kasus klasifikasi pada mata kuliah Kecerdasan Buatan. Algoritma Random Forest dipilih karena kemampuannya menghasilkan prediksi yang akurat melalui kombinasi beberapa pohon keputusan. Proses yang dijelaskan mencakup preprocessing data, pelatihan model, dan evaluasi menggunakan metrik seperti akurasi, presisi, dan f1-score. Laporan ini juga dilengkapi dengan referensi jurnal serta visualisasi hasil, sehingga menggambarkan penerapan Random Forest secara efektif dalam proyek berbasis data.
 
+---
+
 2. dataset/          # Data mentah dan olahan yang digunakan untuk pelatihan/pengujian model
    
 Dataset ini berisi data hasil survei yang digunakan untuk memprediksi potensi penyakit kanker paru-paru. Terdapat beberapa fitur seperti usia, jenis kelamin, kebiasaan merokok, konsumsi alkohol, tingkat kecemasan, dan gejala-gejala lain yang relevan. Label target pada dataset ini adalah LUNG_CANCER, yang menunjukkan apakah seseorang berisiko terkena kanker paru-paru atau tidak. Dataset ini telah melalui tahap preprocessing sebelum digunakan dalam pemodelan menggunakan algoritma Random Forest.
+
+---
 
 3. jurnal/           # Artikel dan referensi pendukung (PDF dan ringkasan)
    
@@ -36,6 +40,8 @@ Menggunakan Grid Search untuk optimasi MLP dan Logistic Regression. Kedua model 
 
 - Penerapan Data Mining untuk Prediksi Kanker Paru Menggunakan Algoritma Random Forest (Infotekmesin Vol.14 No.1 (2023))
 Menerapkan Random Forest dengan K-Fold Cross Validation dan SMOTE. Mencapai akurasi 98,4% dan AUC 1, lebih unggul dari Naïve Bayes.
+
+---
 
 4. notebook.ipynb    # Notebook Jupyter (Python) berisi implementasi Random Forest dan analisis data
    
